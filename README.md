@@ -1,4 +1,4 @@
-# SchoolBus Tracking and Attendance System
+# 🚍 School Bus Attendance and Tracking System
 
 ## Description
 A comprehensive school bus tracking and attendance system built with Node.js, Express.js, and React. This application allows real-time bus tracking, student attendance tracking, and notification alerts for both parents and school administrators. The backend is powered by Node.js with Express.js, and the frontend is built using React.
