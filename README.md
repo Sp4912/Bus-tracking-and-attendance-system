@@ -72,7 +72,7 @@ A full-stack web application to manage and monitor school bus attendance and liv
 
 ## 👨‍👩‍👧‍👦 Team Members
 * Name - [ Dipali Wable ], Role - [ Backend Developer ], Responsibilities - [ Express.js APIs, MongoDB Models, Auth, Attendance APIs ].
-* Name - [ Suraj Aghav ], Role - [ Frontend Developer ], Responsibilities - [ React UI, Tailwind Styling, Routing, Axios Integration ].
+* Name - [ Suraj Aghav ], Role - [ Frontend Developer ], Responsibilities - [ React UI, BootStrap Styling, Routing, Axios Integration ].
 * Name - [ Soham Pawar ], Role - [ Full Stack Developer ], Responsibilities - [ Backend-Frontend Integration, SMS Integration, Final Testing, Documentation ].
 
 ## 📧 Contact
