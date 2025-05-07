@@ -26,32 +26,32 @@ A full-stack web application to manage and monitor school bus attendance and liv
 - **Notifications**: Twilio/Nodemailer (for sending Sms/Emails).
 
 ## 🚀 Features
- **👩‍🏫 Admin Panel**
+* **👩‍🏫 Admin Panel**
 * Admin Login.
 * Manage students and attendants.
 * Assign routes and buses.
 * View attendance logs.
-**🚌 Attendant Dashboard**
+* **🚌 Attendant Dashboard**
 * Attender Login.
 * View student list.
 * Mark attendance (Present/Absent).
 * Send SMS alerts to parents.
 
 ## 🔌 API Endpoints
-**Authentication**
-POST /api/auth/login
-POST /api/auth/register (admin only)
-**Students**
-GET /api/students
-POST /api/students
-PUT /api/students/:id
-DELETE /api/students/:id
-**Buses**
-GET /api/buses
-POST /api/buses/update-location
-**Attendance**
-POST /api/attendance/mark
-GET /api/attendance/:studentId
+* **Authentication**
+* POST /api/auth/login
+* POST /api/auth/register (admin only)
+* **Students**
+* GET /api/students
+* POST /api/students
+* PUT /api/students/:id
+* DELETE /api/students/:id
+* **Buses**
+* GET /api/buses
+* POST /api/buses/update-location
+* **Attendance**
+* POST /api/attendance/mark
+* GET /api/attendance/:studentId
 
 ## 🖼 Screenshots
 
