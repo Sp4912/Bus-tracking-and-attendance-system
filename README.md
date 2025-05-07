@@ -31,6 +31,7 @@ A full-stack web application to manage and monitor school bus attendance and liv
 * Manage students and attendants.
 * Assign routes and buses.
 * View attendance logs.
+
 * **🚌 Attendant Dashboard**
 * Attender Login.
 * View student list.
@@ -41,29 +42,32 @@ A full-stack web application to manage and monitor school bus attendance and liv
 * **Authentication**
 * POST /api/auth/login
 * POST /api/auth/register (admin only)
+
 * **Students**
 * GET /api/students
 * POST /api/students
 * PUT /api/students/:id
 * DELETE /api/students/:id
+
 * **Buses**
 * GET /api/buses
 * POST /api/buses/update-location
+
 * **Attendance**
 * POST /api/attendance/mark
 * GET /api/attendance/:studentId
 
 ## 🖼 Screenshots
 
-**Main Dashboard**
+* **Main Dashboard**
 
-**Admin Login**
+* **Admin Login**
 
-**Attender Login**
+* **Attender Login**
 
-**Admin Dashboard**
+* **Admin Dashboard**
 
-**Attender Dashboard**
+* **Attender Dashboard**
 
 
 ## 👨‍👩‍👧‍👦 Team Members
