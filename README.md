@@ -27,15 +27,15 @@ A full-stack web application to manage and monitor school bus attendance and liv
 
 ## 🚀 Features
  **👩‍🏫 Admin Panel**
-Admin Login.
-Manage students and attendants.
-Assign routes and buses.
-View attendance logs.
+* Admin Login.
+* Manage students and attendants.
+* Assign routes and buses.
+* View attendance logs.
 **🚌 Attendant Dashboard**
-Attender Login.
-View student list.
-Mark attendance (Present/Absent).
-Send SMS alerts to parents.
+* Attender Login.
+* View student list.
+* Mark attendance (Present/Absent).
+* Send SMS alerts to parents.
 
 ## 🔌 API Endpoints
 **Authentication**
