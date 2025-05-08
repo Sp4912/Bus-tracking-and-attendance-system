@@ -38,23 +38,49 @@ A full-stack web application to manage and monitor school bus attendance and liv
 * Send SMS alerts to parents.
 
 ## 🔌 API Endpoints
-* **Authentication**
-* POST /api/auth/login
-* POST /api/auth/register (admin only)
+* **Admin**
+* POST /api/admins/login
+
+* **Attenders**
+* POST /api/attenders/register
+* POST /api/attenders/login
+* PUT /api/attenders/:attenderId
+* DELETE /api/attenders/:attenderId
+* GET /api/attenders/
+* GET /api/attenders/:attenderId
 
 * **Students**
-* GET /api/students
-* POST /api/students
+* GET /api/students/my-bus
+* POST /api/students/register
+* GET /api/students/
+* GET /api/students/sid/:studentId
+* PUT /api/students/sid/:studentId
+* DELETE /api/students/sid/:studentId
+* GET /api/students/:id
 * PUT /api/students/:id
 * DELETE /api/students/:id
 
+* **Drivers**
+* POST /api/drivers/register
+* PUT /api/drivers/:driverId
+* DELETE /api/drivers/:driverId
+* GET /api/drivers/
+* GET /api/drivers/:driverId
+
 * **Buses**
-* GET /api/buses
-* POST /api/buses/update-location
+* POST /api/buses/
+* GET /api/buses/
+* GET /api/buses/details/:busNo
+* GET /api/buses/busno/:busNo
+* PUT /api/buses/busno/:busNo
+* DELETE /api/buses/busno/:busNo
 
 * **Attendance**
-* POST /api/attendance/mark
-* GET /api/attendance/:studentId
+* POST /api/attendance/
+* GET /api/attendance/
+* GET /api/attendance/students/my-bus
+* GET /api/attendance/mine
+* GET /api/attendance/:id
 
 ## 🖼 Screenshots
 
