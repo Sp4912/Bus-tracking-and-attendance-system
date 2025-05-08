@@ -99,11 +99,6 @@ A full-stack web application to manage and monitor school bus attendance and liv
 ![Admin Login Page 3](https://github.com/user-attachments/assets/20194a25-425b-47a5-b0fa-233959737d5f)
 
 
-* **Attender Login**
-
-![Attender Login Page 4](https://github.com/user-attachments/assets/19e5a98f-7a4d-400e-b4b6-1668e222485b)
-
-
 * **Admin Dashboard**
 
 ![Admin Dashboard 3-1](https://github.com/user-attachments/assets/ba000c5c-f84f-4a25-a003-ae10456b9059)
@@ -129,6 +124,11 @@ A full-stack web application to manage and monitor school bus attendance and liv
 ![Student Register 3-5](https://github.com/user-attachments/assets/f6681e91-3c0c-4ce7-a9fa-5b91c507dc26)
 
 
+* **Attender Login**
+
+![Attender Login Page 4](https://github.com/user-attachments/assets/19e5a98f-7a4d-400e-b4b6-1668e222485b)
+
+
 * **Attender Dashboard**
 
 ![Attendance Dashboard 4-1](https://github.com/user-attachments/assets/6c01503a-55dc-42ee-9139-5e49238ac0d9)
@@ -139,7 +139,7 @@ A full-stack web application to manage and monitor school bus attendance and liv
 ![Attendance Dashboard Mark 4-2](https://github.com/user-attachments/assets/1ae33135-6e6e-4f43-9196-464f73a8781c)
 
 
-* **Attender View Dashboard**
+* **Attender Records Dashboard**
 
 ![Attendance Dashboard Record 4-3](https://github.com/user-attachments/assets/8f018d02-c710-416f-a0eb-d93eaff818c6)
 
