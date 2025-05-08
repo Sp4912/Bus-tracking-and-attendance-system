@@ -85,12 +85,17 @@ A full-stack web application to manage and monitor school bus attendance and liv
 ## 🖼 Screenshots
 
 * **Main Dashboard**
+![Main Dashboard 1](https://github.com/user-attachments/assets/79cae93c-01cf-4f8e-9993-8fa9eb7870bf)
+
 
 * **Admin Login**
 
+
 * **Attender Login**
 
+
 * **Admin Dashboard**
+
 
 * **Attender Dashboard**
 
