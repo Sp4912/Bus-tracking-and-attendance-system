@@ -38,10 +38,10 @@ A full-stack web application to manage and monitor school bus attendance and liv
 * Send SMS alerts to parents.
 
 ## 🔌 API Endpoints
-* **Admin**
+* **🧑‍💼 Admin**
 * POST /api/admins/login
 
-* **Attenders**
+* **🧑‍🏫 Attenders**
 * POST /api/attenders/register
 * POST /api/attenders/login
 * PUT /api/attenders/:attenderId
@@ -49,7 +49,7 @@ A full-stack web application to manage and monitor school bus attendance and liv
 * GET /api/attenders/
 * GET /api/attenders/:attenderId
 
-* **Students**
+* **🎒 Students**
 * GET /api/students/my-bus
 * POST /api/students/register
 * GET /api/students/
@@ -60,14 +60,14 @@ A full-stack web application to manage and monitor school bus attendance and liv
 * PUT /api/students/:id
 * DELETE /api/students/:id
 
-* **Drivers**
+* **🧑‍✈️ Drivers**
 * POST /api/drivers/register
 * PUT /api/drivers/:driverId
 * DELETE /api/drivers/:driverId
 * GET /api/drivers/
 * GET /api/drivers/:driverId
 
-* **Buses**
+* **🚍 Buses**
 * POST /api/buses/
 * GET /api/buses/
 * GET /api/buses/details/:busNo
@@ -75,7 +75,7 @@ A full-stack web application to manage and monitor school bus attendance and liv
 * PUT /api/buses/busno/:busNo
 * DELETE /api/buses/busno/:busNo
 
-* **Attendance**
+* **📅 Attendance**
 * POST /api/attendance/
 * GET /api/attendance/
 * GET /api/attendance/students/my-bus
