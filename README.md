@@ -36,10 +36,15 @@ A full-stack web application to manage and monitor school bus attendance and liv
   https://github.com/Sp4912/Bus-tracking-and-attendance-system.git
 
 * Backend Setup:
+```bash
+cd Backend
+```bash
 
 
 * Frontend Setup:
-
+```bash
+cd Frontend
+```bash
 
 
 ## 🔌 API Endpoints
