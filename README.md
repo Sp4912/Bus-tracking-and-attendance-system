@@ -43,7 +43,6 @@ nodemon app.js
 * Frontend Setup:
 ```bash
 cd Frontend
-```bash
 npm start
 
 ## 🔌 API Endpoints
