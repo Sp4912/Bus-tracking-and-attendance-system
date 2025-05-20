@@ -1,0 +1,200 @@
+/* src/pages/AttendanceManagementPage.css */
+
+/* Layout */
+.attendance-dashboard {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  width: 250px;
+  background: #2c3e50;
+  color: #ecf0f1;
+  padding: 1rem 0;
+}
+
+.sidebar ul {
+  list-style: none;
+  margin-top: 30px;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.sidebar h1{
+  margin-top: 05px;
+  margin-bottom: 25px;
+  font-size: 1.6rem;
+}
+
+.sidebar li:hover{
+  background: #8a96a3;
+}
+
+.sidebar li.active {
+  background: #31679c;
+}
+
+.content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1.5rem;
+  background: #ecf0f1;
+}
+
+/* Section titles */
+.section h2 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+  font-size: 1.25rem;
+}
+.navbar7-btn {
+  display: inline-flex;
+  align-items: center;
+  background-color: rgb(8, 115, 148);
+  border: none;
+  color: #d2d3d5;
+  cursor: pointer;
+  margin-left:10px;
+  margin-top: 10px;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  transition: color 0.2s ease;
+}
+
+.navbar7-btn:hover {
+  color: #909aea;
+}
+
+.navbar7-btn .icon {
+  margin-right: 0.5rem;
+  font-size: 1.4rem;
+}
+/* Tables */
+.attendance-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.attendance-table th,
+.attendance-table td {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.attendance-table thead {
+  background: #2980b9;
+  color: #fff;
+}
+
+.attendance-table tbody tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+/* Inline form row */
+.form-row td {
+  padding: 0;
+  background: #fafafa;
+}
+
+.inline-form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0.75rem;
+  gap: 1rem;
+}
+
+.inline-form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+}
+
+.inline-form input[type="date"],
+.inline-form input[type="time"],
+.inline-form select {
+  padding: 0.3rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-top: 0.25rem;
+}
+
+.inline-form button {
+  padding: 0.5rem 1rem;
+  background: #27ae60;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.inline-form button:hover {
+  background: #219150;
+}
+
+/* Search form */
+.search-form {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.search-form input {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.search-form button {
+  padding: 0.5rem 1rem;
+  background: #2980b9;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+/* AttendanceManagementPage.css */
+
+.mark-btn {
+  background-color: #12ab1f;  /* your desired color */
+  color: rgb(194, 217, 204);               /* text color */
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.mark-btn:hover {
+  background-color: #356da6;  /* slightly darker on hover */
+}
+
+.search-form button:hover {
+  background: #2573a6;
+}
+
+/* Record detail */
+.record-detail {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.record-detail p {
+  margin: 0.5rem 0;
+}

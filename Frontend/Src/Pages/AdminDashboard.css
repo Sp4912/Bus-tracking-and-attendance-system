@@ -1,0 +1,119 @@
+/* Dashboard Layout */
+.dashboard {
+    display: flex;
+    height: 100vh;
+  }
+  
+  /* Main Content Styling */
+  .main-content {
+    flex: 1;
+    background-color: #f3f4f6;
+    padding: 40px;
+    overflow-y: auto;
+  }
+  
+  .header {
+    margin-bottom: 30px;
+    color: #8eb7f0;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: rgb(140, 219, 217);
+    margin-left: 520px;
+  }
+  
+  .header p {
+    font-size: 1.1rem;
+    font-weight: 50;
+    color:black;
+  }
+  /* src/App.css */
+
+.navbar-btn {
+  display: inline-flex;
+  align-items: center;
+  background-color: rgb(113, 183, 201);
+  border: none;
+  color: #d2d3d5;
+  cursor: pointer;
+  margin-left: 1200px;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  transition: color 0.2s ease;
+}
+
+.navbar-btn:hover {
+  color: #3340a5;
+}
+
+.navbar-btn .icon {
+  margin-right: 0.5rem;
+  font-size: 1.4rem;
+}
+
+  
+  /* Dashboard Cards */
+  .dashboard-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 25px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card h4 {
+    font-size: 1.2rem;
+    color: #1f2937;
+    margin-top: 10px;
+  }
+  
+  /* Analytics Section */
+  .analytics {
+    margin-top: 40px;
+  }
+  
+  .analytics h3 {
+    font-size: 1.5rem;
+    color: #1f2937;
+    margin-bottom: 20px;
+  }
+  
+  .analytics .graph {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    min-height: 300px;
+    text-align: center;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .dashboard-cards {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .dashboard-cards {
+      grid-template-columns: 1fr;
+    }
+  }
+  

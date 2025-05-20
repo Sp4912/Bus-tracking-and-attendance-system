@@ -1,0 +1,276 @@
+/* General */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9fafb;
+    color: #1f2937;
+    scroll-behavior: smooth;
+  }
+  
+  .homepage {
+    text-align: center;
+  }
+  
+  /* Header */
+  header {
+    background-color: #0b3159;
+    padding: 20px 40px;
+    color: white;
+    
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav a, .login-link {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover, .login-link:hover {
+    color: #facc15;
+  }
+  
+  .video-section {
+    width: 100%;
+    overflow: hidden;
+    background-color: #ece8e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+  }
+  
+  .school-bus-video {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain; /* Ensures full video fits without cropping */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .video-overlay {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    z-index: 2;
+    text-shadow: 2px 2px 6px #000;
+  }
+  
+  /* Sections */
+  section {
+    padding: 50px 20px;
+  }
+  
+  /* ===== About Us (custom) ===== */
+.about-section-custom {
+  position: relative;
+  background: linear-gradient(135deg, #0f3c63 0%, #0d3f8a 100%);
+  color: white;
+  overflow: hidden;
+  padding: 80px 20px;
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+}
+
+.about-text {
+  flex: 1 1 400px;
+  z-index: 2;
+}
+
+.about-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.about-image {
+  flex: 1 1 300px;
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 400px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* bottom wave layers */
+.about-section-custom::after,
+.about-section-custom::before {
+  content: "";
+  position: absolute;
+  left: -50%;
+  width: 200%;
+  border-radius: 50%;
+  transform: translateY(50%);
+}
+
+.about-section-custom::after {
+  bottom: -80px;
+  height: 200px;
+  background: #f9fafb;
+  opacity: 0.9;
+}
+
+.about-section-custom::before {
+  bottom: -100px;
+  height: 160px;
+  background: #f9fafb;
+  opacity: 0.7;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .about-text h2 {
+    font-size: 2rem;
+  }
+  .about-image img {
+    max-width: 300px;
+    margin-top: 30px;
+  }
+}
+
+  #offers {
+    background-color: #eef2ff;
+  }
+  
+  .offers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+  }
+  
+  .card {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    width: 250px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card h4 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #1e3a8a;
+  }
+  
+  .card p {
+    font-size: 0.95rem;
+    color: #374151;
+    margin-top: 8px;
+  }
+  
+  /* Contact Form */
+  #contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  #contact input,
+  #contact textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  #contact input:focus,
+  #contact textarea:focus {
+    border-color: #3b82f6;
+    outline: none;
+  }
+  
+  #contact button {
+    padding: 12px 25px;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #contact button:hover {
+    background-color: #2563eb;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #1e40af;
+    color: white;
+    padding: 20px;
+    font-size: 0.9rem;
+    margin-top: 40px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .offers {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .video-overlay {
+      font-size: 1.5rem;
+      top: 40%;
+    }
+  
+    nav a, .login-link {
+      display: inline-block;
+      margin-top: 10px;
+    }
+  }
+  

@@ -1,0 +1,127 @@
+/* src/pages/DriverManagementPage.css */
+.driver-management {
+    display: flex;
+    height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .sidebar {
+    width: 240px;
+    background-color: #1e40af;
+    color: white;
+    padding: 20px;
+  }
+  
+  .sidebar h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 2.0rem;
+  }
+  
+  .sidebar nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar nav ul li {
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background 0.3s;
+  }
+  
+  .sidebar nav ul li:hover{
+    background-color:#595f8d ;
+  }
+  .sidebar nav ul li.active {
+    background-color: #1f3351;
+  }
+  /* Icon styling in sidebar */
+.sidebar .icon {
+  margin-right: 10px;
+  vertical-align: middle;
+  color: #f3f4f6;
+}.sidebar .icon {
+  margin-right: 10px;
+  font-size: 1.8rem;
+}.navbar3-btn {
+  display: flex;
+  align-items: center;
+  background-color: #8d94b0 !important;
+  color: rgb(231, 235, 235)!important;
+  border: none;
+  padding: 10px 14px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 35%;
+}
+
+.navbar3-btn:hover {
+  background-color: #5d888b;
+}
+
+.navbar3-btn .icon {
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+  .content-area {
+    flex: 1;
+    background-color: #f3f4f6;
+    padding: 40px;
+    overflow-y: auto;
+  }
+  
+  .section-content {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    margin-left: 100px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  .section-content h2 {
+    margin-top: 0;
+    color: #1e40af;
+  }
+  
+  .section-content form input,
+  .section-content form button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+  }
+  
+  .section-content form button {
+    background-color: #1e40af;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .section-content form button:hover {
+    background-color: #3741a1;
+  }
+  
+  .section-content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .section-content ul li {
+    padding: 8px 0;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .driver-details p {
+    margin: 8px 0;
+  }
+  

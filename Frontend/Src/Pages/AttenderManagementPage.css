@@ -1,0 +1,198 @@
+/* AttenderManagementPage.css */
+
+/* Keyframe Animations */
+@keyframes slideInSidebar {
+  from { transform: translateX(-100%); }
+  to   { transform: translateX(0); }
+}
+
+@keyframes fadeInContent {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Container */
+.attender-management {
+  display: flex;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 290px;
+  background-color: #8fa3eb;
+  color: white;
+  padding: 30px 20px;
+  animation: slideInSidebar 0.6s ease-out forwards;
+  box-shadow: 4px 0 12px rgba(0,0,0,0.1);
+  position: relative;
+  z-index: 2;
+}
+
+.sidebar h2 {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-size: 1.9rem;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.sidebar nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar nav ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 12px;
+  margin-bottom: 14px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.sidebar nav ul li:hover {
+  background-color: #7c94d6;
+  transform: translateX(4px);
+}
+
+.sidebar nav ul li.active {
+  background-color: #6b82c2;
+}
+
+.sidebar .icon {
+  margin-right: 10px;
+  font-size: 1.2rem;
+}.navbar1-btn {
+  display: flex;
+  align-items: center;
+  background-color: #8d94b0 !important;
+  color: rgb(231, 235, 235)!important;
+  border: none;
+  padding: 10px 14px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 35%;
+}
+
+.navbar1-btn:hover {
+  background-color: #5d888b;
+}
+
+.navbar1-btn .icon {
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+/* Main Content */
+.content-area {
+  flex: 1;
+  background-color: #f9fafb;
+  padding: 50px;
+  animation: fadeInContent 0.8s ease-out forwards;
+  opacity: 0;
+}
+
+/* Section Boxes */
+.section-content {
+  background: white;
+  padding: 35px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  margin-bottom: 30px;
+  transition: transform 0.3s;
+}
+
+.section-content:hover {
+  transform: translateY(-5px);
+}
+
+.section-content h2 {
+  margin-top: 0;
+  color: #1e40af;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.section-content .section-icon {
+  margin-right: 12px;
+  font-size: 1.6rem;
+  color: #1e40af;
+}
+
+/* Form Controls */
+.section-content form input,
+.section-content form button,
+.section-content form textarea,
+.section-content form select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+
+.section-content form input:focus,
+.section-content form textarea:focus,
+.section-content form select:focus {
+  border-color: #3b82f6;
+  outline: none;
+}
+
+.section-content form button {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 14px;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.section-content form button:hover {
+  background-color: #2563eb;
+  transform: translateY(-2px);
+}
+
+/* List Items */
+.section-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.section-content ul li {
+  padding: 10px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+/* Details Blocks */
+.attender-details p {
+  margin: 10px 0;
+  line-height: 1.4;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .attender-management {
+    flex-direction: column;
+  }
+  .sidebar {
+    width: 100%;
+    animation: slideInSidebar 0.6s ease-out forwards;
+  }
+  .content-area {
+    padding: 20px;
+  }
+}

@@ -1,0 +1,106 @@
+/* Container fade-in */
+.attender-login-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom right, #f9fafb, #dbeafe);
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    padding: 20px;
+  }
+  
+  .attender-login-container.loaded {
+    opacity: 1;
+  }
+  
+  /* Card slide-in */
+  .login-card {
+    background: #ffffff;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    max-width: 380px;
+    width: 100%;
+    transform: translateX(-100%);
+    animation: slideIn 1s forwards;
+  }
+  
+  /* Icon and heading */
+  .icon-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #374151;
+    margin-bottom: 20px;
+  }
+  
+  .icon-header h2 {
+    margin-top: 10px;
+    font-size: 1.8rem;
+  }
+  
+  /* Form */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .login-form label {
+    font-weight: 600;
+    color: #374151;
+  }
+  
+  .login-form input,
+  .login-form select {
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+  }
+  
+  .login-form input:focus,
+  .login-form select:focus {
+    border-color: #3b82f6;
+    outline: none;
+  }
+  
+  /* Button */
+  .login-form button {
+    margin-top: 10px;
+    padding: 12px;
+    background-color: #2563eb;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login-form button:hover {
+    background-color: #1d4ed8;
+  }
+  
+  /* Slide-in keyframes */
+  @keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  /* Responsive */
+  @media (max-width: 480px) {
+    .login-card {
+      padding: 30px 20px;
+    }
+    .icon-header h2 {
+      font-size: 1.6rem;
+    }
+  }
+  
