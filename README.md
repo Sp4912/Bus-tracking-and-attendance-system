@@ -38,10 +38,13 @@ A full-stack web application to manage and monitor school bus attendance and liv
 * Backend Setup:
   ```bash
   cd Backend
+  npm init -y
+  npm install express
   node app.js
 
 * Frontend Setup:
   ```bash
+  npx create-react-app Frontend
   cd Frontend
   npm start
 
