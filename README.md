@@ -36,12 +36,12 @@ A full-stack web application to manage and monitor school bus attendance and liv
   https://github.com/Sp4912/Bus-tracking-and-attendance-system.git
 
 * Backend Setup:
-```bash
+  ```bash
 cd Backend
 nodemon app.js
 
 * Frontend Setup:
-```bash
+  ```bash
 cd Frontend
 npm start
 
