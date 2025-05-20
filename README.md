@@ -38,7 +38,6 @@ A full-stack web application to manage and monitor school bus attendance and liv
 * Backend Setup:
 ```bash
 cd Backend
-```bash
 nodemon app.js
 
 * Frontend Setup:
