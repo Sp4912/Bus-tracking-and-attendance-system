@@ -39,13 +39,13 @@ A full-stack web application to manage and monitor school bus attendance and liv
 ```bash
 cd Backend
 ```bash
-
+nodemon app.js
 
 * Frontend Setup:
 ```bash
 cd Frontend
 ```bash
-
+npm start
 
 ## 🔌 API Endpoints
 * **🧑‍💼 Admin**
