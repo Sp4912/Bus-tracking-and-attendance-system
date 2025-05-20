@@ -32,9 +32,8 @@ A full-stack web application to manage and monitor school bus attendance and liv
 
 ## Installation
 * Clone the repository:
-  git clone
   ```bash
-  https://github.com/your-username/project-name.git
+  https://github.com/Sp4912/Bus-tracking-and-attendance-system.git
 
 * Backend Setup:
 
