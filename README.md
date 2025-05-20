@@ -159,6 +159,5 @@ A full-stack web application to manage and monitor school bus attendance and liv
 * Name - [ Soham Pawar ], Role - [ Full Stack Developer ], Responsibilities - [ Backend-Frontend Integration, SMS Integration, Documentation ].
 
 ## 📧 Contact
-For inquiries: @gmail.com
+For inquiries: sohampawar859@gmail.com
 
-## Coming Soon
