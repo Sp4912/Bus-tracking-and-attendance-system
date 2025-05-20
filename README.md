@@ -10,13 +10,6 @@ A full-stack web application to manage and monitor school bus attendance and liv
 * Providing a dashboard for Admin to manage Students, Attenders, Routes, Buses, Drivers.
 * Providing a dashboard for Attender to manage Students Attendance.
 
-## Features
-- **User Authentication**: Admin, Attender.
-- **Attendance System**: Mark student attendance based on bus arrivals.
-- **Notifications**: Parents receive attendance notifications.
-- **Admin Dashboard**: Admins can manage bus routes, students, and attendance records.
-- **Attender Dashboard**: Attender can Mark Students Present/Absent.
-
 ## 🛠 Tech Stack
 - **Frontend**: React, BootStrap CSS.
 - **Backend**: Node.js, Express.js.
@@ -36,6 +29,18 @@ A full-stack web application to manage and monitor school bus attendance and liv
 * View student list.
 * Mark attendance (Present/Absent).
 * Send SMS alerts to parents.
+
+## Installation
+* Clone the repository:
+  ```bash
+git clone https://github.com/your-username/project-name.git
+
+* Backend Setup:
+
+
+* Frontend Setup:
+
+
 
 ## 🔌 API Endpoints
 * **🧑‍💼 Admin**
