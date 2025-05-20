@@ -32,8 +32,7 @@ A full-stack web application to manage and monitor school bus attendance and liv
 
 ## Installation
 * Clone the repository:
-  ```bash
-git clone https://github.com/your-username/project-name.git
+  ```bash git clone https://github.com/your-username/project-name.git
 
 * Backend Setup:
 
